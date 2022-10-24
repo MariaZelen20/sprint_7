@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: AuthorizationCourierTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 68.858 s <<< FAILURE! - in AuthorizationCourierTest
+authorizationCourierWithoutPassword(AuthorizationCourierTest)  Time elapsed: 60.302 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <504>.
+
+	at AuthorizationCourierTest.authorizationCourierWithoutPassword(AuthorizationCourierTest.java:73)
+

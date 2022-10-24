@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: CourierTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.646 s <<< FAILURE! - in CourierTest
+createCourier(CourierTest)  Time elapsed: 0.195 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <409>.
+
+	at CourierTest.createCourier(CourierTest.java:25)
+
+cantCreateTwoSameCourier(CourierTest)  Time elapsed: 0.152 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <409>.
+
+	at CourierTest.cantCreateTwoSameCourier(CourierTest.java:42)
+
